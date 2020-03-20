@@ -1,5 +1,5 @@
-# Write a program to random print out fullname
-# Fullname = firstname + lastname
+# Write a program to random print out fullname (e.g, Emma Ella)
+
 firstnames_list = [
     "Emma", "Olivia", "Ava", "Isabella", "Sophia", "Charlotte",
     "Mia", "Amelia", "Harper", "Evelyn"
