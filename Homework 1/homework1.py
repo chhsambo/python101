@@ -9,4 +9,4 @@ lastnames_list = [
     "Sofia", "Camila", "Aria", "Scarlett"
 ]
 
-# Hint: use random to random name from list above
+# Hint: use random to number (index) of list
