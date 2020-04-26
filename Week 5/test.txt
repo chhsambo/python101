@@ -1,0 +1,7 @@
+Line 1 – A collective list of free APIs for use in software and web development.
+
+Line 2 – A public API for this project can be found here!
+
+Line 3 – For information on contributing to this project, please see the contributing guide.
+
+Line 4 – Please note a passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.
