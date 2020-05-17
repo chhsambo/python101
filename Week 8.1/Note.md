@@ -18,3 +18,10 @@ Contact
 > Search
 > Save contact to *.pkl data file
 > Load *.pkl data when app start
+
+
+## Inheritance
+Get value (attributes & methods) from our parent (or main class)
+
+### Why we inheritance
+To reduce write code to create the same fields and methods
