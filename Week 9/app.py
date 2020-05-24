@@ -17,7 +17,3 @@ def about():
 app.run()
 
 # To test flask http://localhost:5000
-
-# Vue.js    Backend Frontend Fullstack
-
-# Dash web framework
