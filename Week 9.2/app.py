@@ -7,27 +7,27 @@ app = Flask(__name__)
 # http://www.antkh.com/home
 @app.route("/home", methods=["GET", "POST"])
 def home():
-    text = ""
+    text = "hello world"
     if request.method == "POST":
         text = request.form["textinput"]
 
     words = text.split()
 
-    return render_template(
-        "home.html", 
-        text=text,
-        letters=len(text), 
-        words=len(words)
-    )
+    # return render_template(
+    #     "home.html", 
+    #     text=text,
+    #     letters=len(text), 
+    #     words=len(words)
+    # )
 
-    # return f"""
-    # Count Letters & Words<br>
-    # - Letter: {letters}<br>
-    # - Words: {words}<br>
-    # """
+    return f"""
+    Count Letters & Words<br>
+    - Letter: {len(text)}<br>
+    - Words: {len(words)}<br>
+    """
 
 
-@app.route('/about')
+@app.route('/about', methods=["POST"])
 def about():
     return "Create by Sambo."
 
